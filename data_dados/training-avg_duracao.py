@@ -15,3 +15,7 @@ df['duration'] = df.apply(lambda r: r['duration']/60 if r['unit']=="min" else r[
 agg = df.groupby('country', as_index=False)['duration'].mean()
 agg.to_sql("training_avg", con, if_exists="replace", index=False)
 print(pd.read_sql("SELECT * FROM training_avg", con))
+# Expected output / Saída esperada:
+#   country  duration
+#   Brazil      1.75
+#   USA         2.50
