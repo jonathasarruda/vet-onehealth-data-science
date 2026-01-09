@@ -1,14 +1,14 @@
-📝 Question | Questão
-EN:  
-In cattle surveillance, how to impute missing temperatures by herd mean using an in‑memory SQL‑Python‑SQL pipeline and classify outbreak risk?
+# 📝 Question | Questão
+# EN:  
+# In cattle surveillance, how to impute missing temperatures by herd mean using an in‑memory SQL‑Python‑SQL pipeline and classify outbreak risk?
 
-PT:  
-Na vigilância bovina, como imputar temperaturas ausentes pela média do rebanho usando um pipeline SQL‑Python‑SQL em memória e classificar risco de surto?
+# PT:  
+# Na vigilância bovina, como imputar temperaturas ausentes pela média do rebanho usando um pipeline SQL‑Python‑SQL em memória e classificar risco de surto?
 
-🗣️ Answer | Resposta
-EN: Read SQL, impute herd mean in Python, write back, classify risk in SQL.
+# 🗣️ Answer | Resposta
+# EN: Read SQL, impute herd mean in Python, write back, classify risk in SQL.
 
-PT: Ler SQL, imputar média do rebanho em Python, gravar de volta e classificar risco em SQL.
+#  PT: Ler SQL, imputar média do rebanho em Python, gravar de volta e classificar risco em SQL.
 
 import sqlite3, pandas as pd
 conn = sqlite3.connect(":memory:")  # EN: in-memory DB | PT: banco em memória
