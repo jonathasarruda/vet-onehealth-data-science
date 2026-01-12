@@ -17,9 +17,9 @@ conn = sqlite3.connect(":memory:")  # EN: in-memory DB | PT: banco em memória
 conn.executescript("CREATE TABLE cattle(id,herd,temp);"
                    "INSERT INTO cattle VALUES(1,1,38.5),(2,1,NULL),(3,2,39.2);")
 
-df = pd.read_sql("SELECT * FROM cattle", conn)  # EN/PT: read table
-df["temp"] = df.groupby("herd")["temp"].transform(lambda s: s.fillna(s.mean()))  # EN/PT: herd mean imputation
-df.to_sql("cattle", conn, index=False, if_exists="replace")  # EN/PT: write corrected
+df = pd.read_sql("SELECT * FROM cattle", conn)  # EN: read table | PT: ler tabela
+df["temp"] = df.groupby("herd")["temp"].transform(lambda s: s.fillna(s.mean()))  # EN: herd mean imputation | PT: imputação pela média do rebanho
+df.to_sql("cattle", conn, index=False, if_exists="replace")  # EN: write corrected | PT: gravar tabela corrigida
 
 # EN: classify risk by avg temp | PT: classifica risco pela média
 print(pd.read_sql("SELECT herd,AVG(temp) AS avg,"
