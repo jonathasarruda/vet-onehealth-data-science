@@ -19,7 +19,7 @@ Each folder contains:
 
 ---
 
-## 🧠 Why this repo? | Por que este repositório?
+## 💡 Why this repo? | Por que este repositório?
 
 **EN:**  
 To showcase practical skills in **Veterinary Data Science applied to One Health**.  
@@ -31,7 +31,7 @@ Pensado para clareza, versatilidade e acessibilidade bilíngue.
 
 ---
 
-## 🧪 Topics | Tópicos
+## 📚 Topics | Tópicos
 - Data | Dados  
 - Model | Modelo  
 - Deploy | Deploy  
