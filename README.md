@@ -1,4 +1,3 @@
-vet-onehealth-data-science
 Veterinary Data Science | Ciência de Dados aplicada à Saúde Única
 
 EN
