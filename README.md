@@ -39,6 +39,6 @@ MIT License — feel free to use, adapt, and share.
 Licença MIT — sinta-se livre para usar, adaptar e compartilhar.
 
 ✉️ Contact | Contato
-GitHub: jonathasarruda
+GitHub: https://github.com/jonathasarruda
 
 LinkedIn: linkedin.com/in/jonathasdsarruda
