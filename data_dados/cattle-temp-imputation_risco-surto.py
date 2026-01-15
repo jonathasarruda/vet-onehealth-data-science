@@ -1,14 +1,19 @@
 # 📝 Question | Questão
-# EN:  
-# In cattle surveillance, how to impute missing temperatures by herd mean using an in‑memory SQL‑Python‑SQL pipeline and classify outbreak risk?
+# EN: In cattle surveillance, how to impute missing temperatures by herd mean using an in‑memory SQL‑Python‑SQL pipeline and classify outbreak risk?
 
-# PT:  
-# Na vigilância bovina, como imputar temperaturas ausentes pela média do rebanho usando um pipeline SQL‑Python‑SQL em memória e classificar risco de surto?
+# PT: Na vigilância bovina, como imputar temperaturas ausentes pela média do rebanho usando um pipeline SQL‑Python‑SQL em memória e classificar risco de surto?
 
 # 🗣️ Answer | Resposta
 # EN: Read SQL, impute herd mean in Python, write back, classify risk in SQL.
+# PT: Ler SQL, imputar média do rebanho em Python, gravar de volta e classificar risco em SQL.
 
-#  PT: Ler SQL, imputar média do rebanho em Python, gravar de volta e classificar risco em SQL.
+# ⚙️ Paradigm | Paradigma
+# EN: This code is imperative/procedural because it executes step by step, telling the computer what to do.
+#     It also uses object-oriented elements: pandas DataFrame is a class, and when we create 'df',
+#     we instantiate an object with methods (like groupby, transform, to_sql) that we use to process data.
+# PT: Este código é imperativo/procedural porque executa passo a passo, dizendo ao computador o que fazer.
+#     Também usa elementos orientados a objetos: o DataFrame do pandas é uma classe, e quando criamos 'df',
+#     instanciamos um objeto com métodos (como groupby, transform, to_sql) que usamos para processar os dados.
 
 import sqlite3, pandas as pd
 conn = sqlite3.connect(":memory:")  # EN: in-memory DB | PT: banco em memória
