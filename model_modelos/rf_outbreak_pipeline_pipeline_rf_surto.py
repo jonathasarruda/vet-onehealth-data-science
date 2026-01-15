@@ -1,5 +1,4 @@
 ## 📝 Question | Questão  
-
 # EN: In a One Health dataset integrating cattle fever (animal), human influenza (human), and air pollution (environment), how to impute missing values, train a Random Forest classifier for outbreak risk, and evaluate performance with F1‑score using an SQL–Python–SQL pipeline?  
 
 # PT: Em um conjunto de dados de Saúde Única integrando febre bovina (animal), influenza humana (humano) e poluição do ar (ambiental), como imputar valores ausentes, treinar um classificador Random Forest para risco de surto e avaliar o desempenho com F1‑score usando um pipeline SQL–Python–SQL?  
@@ -7,7 +6,6 @@
 ---
 
 ## 💬 Answer | Resposta  
-
 # EN/PT: SQL → Python → SQL; imputation | imputação; Random Forest; F1‑score
   
 # Language: Python | Linguagem: Python
