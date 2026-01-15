@@ -27,8 +27,8 @@ import sqlite3, pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import f1_score
 
-# 🗄️ Create in-memory SQL database and insert sample data
-# 🗄️ Criar banco de dados SQL em memória e inserir dados de exemplo
+# 💾 Create in‑memory SQL database and insert sample data
+# 💾 Criar banco de dados SQL em memória e inserir dados de exemplo
 conn = sqlite3.connect(":memory:")
 conn.executescript("""
 CREATE TABLE data(id,fever,influenza,pollution,label);
