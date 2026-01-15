@@ -10,9 +10,9 @@
   
 # Language: Python | Linguagem: Python
 
-# 🔬 One Health outbreak risk prediction | Predição de risco de surtos em Saúde Única
-# 🧪 SQL–Python–SQL pipeline | Pipeline SQL–Python–SQL
-# 🧪 Imputation + Random Forest + F1-score | Imputação + Random Forest + F1-score
+# 🔧 One Health outbreak risk prediction | Predição de risco de surtos em Saúde Única
+# 🔧 SQL–Python–SQL pipeline | Pipeline SQL–Python–SQL
+# 🔧 Imputation + Random Forest + F1-score | Imputação + Random Forest + F1-score
 
 # ⚙️ Paradigm | Paradigma
 # EN: This code is imperative/procedural because it executes step by step, telling the computer what to do.
@@ -43,8 +43,8 @@ INSERT INTO data VALUES
 df = pd.read_sql("SELECT * FROM data", conn)
 df["fever"] = df["fever"].fillna(df["fever"].mean())
 
-# 🤖 Train Random Forest classifier
-# 🤖 Treinar classificador Random Forest
+# ⚙️ Train Random Forest classifier
+# ⚙️ Treinar classificador Random Forest
 m = RandomForestClassifier().fit(df[["fever","influenza","pollution"]], df["label"])
 
 # 📈 Evaluate model with F1-score
