@@ -10,8 +10,8 @@
 **EN:** Demonstrate how to train, evaluate, and validate predictive models using veterinary datasets.  
 **PT:** Demonstrar como treinar, avaliar e validar modelos preditivos usando conjuntos de dados veterinários.  
 
-⚠️ **EN:** All data used in this folder is mimicked from real-world veterinary scenarios for educational purposes.  
-⚠️ **PT:** Todos os dados usados nesta pasta são mimetizados de cenários veterinários reais para fins educacionais.  
+⚠️ EN: All data used in this folder is mimicked from real-world veterinary scenarios for demonstrative purposes.  
+⚠️ PT: Todos os dados usados nesta pasta são mimetizados de cenários veterinários reais para fins demonstrativos.  
 
 ## Estrutura | Structure
 1. 📈 Training → treino de modelos  
