@@ -1,0 +1,6 @@
+# EN: List of dependencies required to run the Streamlit app
+# PT: Lista de dependências necessárias para rodar o app Streamlit
+
+streamlit
+pandas
+plotly
