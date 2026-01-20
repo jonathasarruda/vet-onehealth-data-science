@@ -10,8 +10,8 @@
 **EN:** Demonstrate how to collect, store, and query veterinary data using SQL ↔ Python ↔ SQL workflows.  
 **PT:** Demonstrar como coletar, armazenar e consultar dados veterinários usando fluxos SQL ↔ Python ↔ SQL.  
 
-⚠️ **EN:** All data used in this folder is mimicked from real-world veterinary scenarios for educational purposes.  
-⚠️ **PT:** Todos os dados usados nesta pasta são mimetizados de cenários veterinários reais para fins educacionais.  
+⚠️ EN: All data used in this folder is mimicked from real-world veterinary scenarios for demonstrative purposes.  
+⚠️ PT: Todos os dados usados nesta pasta são mimetizados de cenários veterinários reais para fins demonstrativos.  
 
 ## Estrutura | Structure
 1. 🐄 Herd records → registros de rebanhos  
