@@ -14,10 +14,10 @@
 ⚠️ PT: Todos os dados usados nesta pasta são mimetizados de cenários veterinários reais para fins demonstrativos.  
 
 ## Estrutura | Structure
-1. 🐄 Herd records → registros de rebanhos  
-2. 🧪 Exams → exames clínicos  
-3. 📋 Inspections → inspeções sanitárias  
-4. 🌍 Epidemiological cases → casos epidemiológicos  
+1. 🐑 Herd records → registros de rebanhos  
+2. 💉 Exams → exames clínicos  
+3. ✅ Inspections → inspeções sanitárias  
+4. 📈 Epidemiological cases → casos epidemiológicos  
 
 ## Saída esperada | Expected Output
 **EN:** SQL queries integrated with Python scripts that return tables of veterinary data ready for analysis.  
