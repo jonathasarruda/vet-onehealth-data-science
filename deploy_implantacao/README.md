@@ -10,13 +10,13 @@
 **EN:** Demonstrate how to document, visualize, expose, and automate results already obtained from veterinary datasets.  
 **PT:** Demonstrar como documentar, visualizar, expor e automatizar resultados já obtidos a partir de dados veterinários.  
 
-⚠️ **EN:** All data used in this folder is mimicked from real-world veterinary scenarios for educational purposes.  
-⚠️ **PT:** Todos os dados usados nesta pasta são mimetizados de cenários veterinários reais para fins educacionais.  
+⚠️ EN: All data used in this folder is mimicked from real-world veterinary scenarios for demonstrative purposes.  
+⚠️ PT: Todos os dados usados nesta pasta são mimetizados de cenários veterinários reais para fins demonstrativos.  
 
 ## Camadas | Layers
 1. 📘 **Markdown/GitHub** → bilingual documentation of context and results  
 2. 📊 **Dashboard** → interactive visualization (Streamlit, Dash, Plotly, Folium)  
-3. 🌐 **API** → minimal endpoint (Flask/FastAPI) exposing predictions  
+3. 🔗 **API** → minimal endpoint (Flask/FastAPI) exposing predictions  
 4. ⚙️ **CI/CD** → GitHub Actions workflow for periodic refresh  
 
 ## Saída esperada | Expected Output
