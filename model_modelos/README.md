@@ -1,6 +1,6 @@
 # README.md
 
-# 🤖 Model | Modelos
+# ⚙️ Model | Modelos
 
 ## Enunciado (EN/PT)
 **EN:** This folder contains modeling snippets for veterinary data science applied to One Health.  
@@ -16,8 +16,8 @@
 ## Estrutura | Structure
 1. 📈 Training → treino de modelos  
 2. 📊 Evaluation → avaliação com métricas (accuracy, F1, ROC-AUC)  
-3. 🔄 Validation → validação cruzada  
-4. 🧩 Pipelines → integração SQL ↔ Python ↔ SQL  
+3. ✅ Validation → validação cruzada  
+4. 🔗 Pipelines → integração SQL ↔ Python ↔ SQL  
 
 ## Saída esperada | Expected Output
 **EN:** Predictive models that classify or estimate zoonotic risk, with evaluation metrics included.  
