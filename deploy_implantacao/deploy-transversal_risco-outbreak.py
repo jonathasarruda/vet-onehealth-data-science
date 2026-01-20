@@ -15,6 +15,7 @@
 ---
   
 # 📊 Interatividade (Streamlit/Plotly)
+  
 # Language: Python | Linguagem: Python
 import streamlit as st
 import pandas as pd
@@ -37,6 +38,7 @@ st.plotly_chart(fig)
 ---
 
 # 🔗 Integração (FastAPI)
+
 # Language: Python | Linguagem: Python
 from fastapi import FastAPI
 
@@ -56,6 +58,7 @@ def get_predictions():
 ---
 
 # ⚙️ Automação (GitHub Actions)
+
 # Language: YAML | Linguagem: YAML
 name: CI-CD-Pipeline
 
