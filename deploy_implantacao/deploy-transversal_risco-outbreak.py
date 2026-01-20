@@ -15,8 +15,13 @@
 ---
   
 # 📊 Interatividade (Streamlit/Plotly)
-  
-# Language: Python | Linguagem: Python
+
+# Installation | Instalação
+!pip install streamlit pandas plotly
+!npm install -g localtunnel  # only if running in Colab | apenas se estiver no Colab
+
+# Script creation (save as app.py) | Criação do script (salva em app.py)
+%%writefile app.py
 import streamlit as st
 import pandas as pd
 import plotly.express as px
