@@ -1,6 +1,6 @@
 # README.md
 
-# ⚙️ Model | Modelos
+# ⚙️ Model | Modelo
 
 ## Enunciado (EN/PT)
 **EN:** This folder contains modeling snippets for veterinary data science applied to One Health.  
