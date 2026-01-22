@@ -2,14 +2,11 @@
 
 ---
 
-## 🇬🇧 English
-Streamlit app to visualize zoonotic risk predictions by farm.  
-Built with **Streamlit**, **pandas**, and **Plotly** as part of *vet-onehealth-data-science*.  
-Interactive charts support decision-making in veterinary and public health.
+## 🇬🇧 English FastAPI app to expose zoonotic risk predictions by farm. Built with **FastAPI**, **pandas**, and **Plotly** as part of *vet-onehealth-data-science*. Provides endpoints and interactive visualization to support veterinary and public health decisions.
 
 ---
 
 🇧🇷 Português
-Aplicativo Streamlit para visualizar previsões de risco zoonótico por fazenda.
-Desenvolvido com Streamlit, pandas e Plotly como parte do vet-onehealth-data-science.
-Gráficos interativos apoiam decisões em saúde pública e veterinária.
+Aplicativo FastAPI para expor previsões de risco zoonótico por fazenda.
+Desenvolvido com FastAPI, pandas e Plotly como parte do vet-onehealth-data-science.
+Fornece endpoints e visualização interativa para apoiar decisões em saúde pública e veterinária.
