@@ -1,4 +1,4 @@
-# 🧬 Zoonotic Risk Predictions App
+# Zoonotic Risk Predictions App
 
 ---
 
