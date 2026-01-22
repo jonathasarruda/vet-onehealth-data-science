@@ -54,27 +54,3 @@ def get_predictions():
 # ⚙️ Paradigm | Paradigma
 # EN: This code is RESTful because it exposes resources via HTTP endpoints.
 # PT: Este código é RESTful porque expõe recursos via endpoints HTTP.
-
----
-
-# ⚙️ Automação (GitHub Actions)
-
-# Language: YAML | Linguagem: YAML
-name: CI-CD-Pipeline
-
-on:
-  schedule:
-    - cron: "0 0 * * 0"  # weekly
-
-jobs:
-  update-predictions:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-      - name: Run update script
-        run: python scripts/update_predictions.py
-
-# ⚙️ Paradigm | Paradigma
-# EN: This code is event-driven because it executes automatically on a schedule.
-# PT: Este código é orientado a eventos porque executa automaticamente em um agendamento.
